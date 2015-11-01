@@ -1,0 +1,74 @@
+﻿<UserControl
+    x:Class="PerpetuumSoft.Controls.Demo.RangeSliderExample"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:p="using:PerpetuumSoft.Controls" 
+    mc:Ignorable="d" d:DesignHeight="320" d:DesignWidth="470">
+  <Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
+    <Grid.Resources>
+      <Style TargetType="TextBlock">
+        <Setter Property="FontSize" Value="16" />
+      </Style>
+    </Grid.Resources>
+    <StackPanel>
+      <Border BorderThickness="2" HorizontalAlignment="Left" VerticalAlignment="Top" Padding="10">
+        <Grid>
+          <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+          </Grid.RowDefinitions>
+          <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="Auto" />
+          </Grid.ColumnDefinitions>
+
+          <p:RangeSlider x:Name="HSlider" Minimum="0" Maximum="200" Change="1" MinValue="20" MaxValue="180" Orientation="Horizontal" Grid.Column="1" />
+
+          <p:RangeSlider x:Name="VSlider" Minimum="0" Maximum="200" Change="1" MinValue="20" MaxValue="180" Orientation="Vertical" Grid.Row="1" />
+
+          <Border Grid.Row="1" Grid.Column="1" Width="222" Height="222">
+            <Canvas Width="200" Height="200" HorizontalAlignment="Center" VerticalAlignment="Center" >
+              <Line X1="{Binding MinValue,ElementName=HSlider}" X2="{Binding MinValue,ElementName=HSlider}" Y1="-43" Y2="220" Stroke="Black" StrokeDashArray="1,1" />
+              <Line X1="{Binding MaxValue,ElementName=HSlider}" X2="{Binding MaxValue,ElementName=HSlider}" Y1="-43" Y2="220" Stroke="Black" StrokeDashArray="1,1" />
+              <Line Y1="{Binding MinValue,ElementName=VSlider}" Y2="{Binding MinValue,ElementName=VSlider}" X1="-28" X2="220" Stroke="Black" StrokeDashArray="1,1" />
+              <Line Y1="{Binding MaxValue,ElementName=VSlider}" Y2="{Binding MaxValue,ElementName=VSlider}" X1="-28" X2="220" Stroke="Black" StrokeDashArray="1,1" />
+              <Rectangle x:Name="Rect" RadiusX="20" RadiusY="20" Fill="{StaticResource LightScheme1Brush}" 
+                       Canvas.Left="{Binding MinValue,ElementName=HSlider}" 
+                       Canvas.Top="{Binding MinValue,ElementName=VSlider}"
+                       Width="{Binding DeltaValue,ElementName=HSlider}"
+                       Height="{Binding DeltaValue,ElementName=VSlider}"/>
+            </Canvas>
+          </Border>
+
+          <Grid Grid.Row="2" Grid.ColumnSpan="2" Margin="0,20,0,0">
+            <Grid.ColumnDefinitions>
+              <ColumnDefinition Width="70"/>
+              <ColumnDefinition Width="100"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+              <RowDefinition Height="Auto" />
+              <RowDefinition Height="Auto" />
+              <RowDefinition Height="Auto" />
+              <RowDefinition Height="Auto" />
+              <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+
+            <TextBlock FontWeight="Bold" HorizontalAlignment="Center" Grid.ColumnSpan="2" Padding="0,0,60,0">State</TextBlock>
+
+            <TextBlock Grid.Row="1" Text="Left:  "/>
+            <TextBlock Grid.Row="2" Text="Top:  "/>
+            <TextBlock Grid.Row="3" Text="Width:  "/>
+            <TextBlock Grid.Row="4" Text="Height:  "/>
+            <TextBlock Grid.Column="1" Grid.Row="1" Text="{Binding MinValue, ElementName=HSlider}"/>
+            <TextBlock Grid.Column="1" Grid.Row="2" Text="{Binding MinValue, ElementName=VSlider}"/>
+            <TextBlock Grid.Column="1" Grid.Row="3" Text="{Binding DeltaValue, ElementName=HSlider}"/>
+            <TextBlock Grid.Column="1" Grid.Row="4" Text="{Binding DeltaValue, ElementName=VSlider}"/>
+          </Grid>
+        </Grid>
+      </Border>      
+    </StackPanel>
+  </Grid>
+</UserControl>

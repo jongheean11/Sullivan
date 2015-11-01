@@ -1,0 +1,40 @@
+﻿<RadialMenu
+    Image="CenterImage.png"
+    Content="{Binding CenterContent}"
+    BodyBrush="{Binding BodyBrush}"
+    RingBackgroundBrush="{Binding RingBackgroundBrush}"
+    RingActiveBrush="{Binding RingActiveBrush}"
+    RingHoverBrush="{Binding RingHoverBrush}">
+  <RadialItem Index="0"
+    Image="Item0.png"
+    Content="{Binding Content}"
+    Label="Label"
+    ToolTip="ToolTip"
+    ValueText="10"
+    ValueBrush="Red"
+    Command="{Binding Command}"
+    CommandParameter="Parameter"
+    Click="ClickHandler" />
+  <RadialItem Index="1" Label="Submenu">
+    <RadialMenu>
+      <RadialItem Index="0" Label="Submenu Item" IsChecked="True" />
+      <RadialItem Index="1" Label="Submenu Item" IsChecked="False" />
+      <RadialItem Index="2" Label="Submenu Item" />
+    </RadialMenu>
+  </RadialItem>
+  <RadialItem Index="2" Label="Slider" ValueText="{Binding FontSize}">
+    <RadialSlider Nicks="9,11,13,16,20,26,36,42" Value="{Binding FontSize, Mode=TwoWay}"/>
+  </RadialItem>
+  <RadialItem Index="3" Label="Color picker" ValueBrush="{Binding FontBrush}">
+    <RadialColorPicker SelectedColor="{Binding FontBrush, Mode=TwoWay}" />
+  </RadialItem>
+  <RadialItem Index="4">
+    <RadialMenu>
+      <RadialItem Index="0" Text="Checked Item" Mode="CheckBox" IsChecked="{Binding IsChecked, Mode=TwoWay}" />
+      <RadialItem Index="1" Text="RadioGroup1 Option1" Mode="RadioButton"  />
+      <RadialItem Index="2" Text="RadioGroup1 Option2" Mode="RadioButton"  />
+      <RadialItem Index="3" Text="RadioGroup2 Option1" Mode="RadioButton" GroupName="SecondGroup" />
+      <RadialItem Index="4" Text="RadioGroup2 Option2" Mode="RadioButton" GroupName="SecondGroup" />
+    </RadialMenu>
+  </RadialItem>
+</RadialMenu>

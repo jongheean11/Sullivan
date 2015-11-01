@@ -1,0 +1,142 @@
+﻿<Page
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:App2"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:p="using:PerpetuumSoft.Controls"
+    x:Class="App2.DrawingPage"
+    mc:Ignorable="d">
+	<Page.Resources>
+		<p:ColorToBrushConverter x:Key="cbc" />
+	</Page.Resources>
+	<Page.BottomAppBar>
+		<AppBar>
+			<Grid>
+				<Grid.ColumnDefinitions>
+					<ColumnDefinition/>
+					<ColumnDefinition/>
+				</Grid.ColumnDefinitions>
+				<StackPanel Orientation="Horizontal"/>
+				<StackPanel Grid.Column="1" HorizontalAlignment="Right" Orientation="Horizontal"/>
+				<Button x:Name="PreviewBtn" Content="Preview" HorizontalAlignment="Left" VerticalAlignment="Center" Width="120" Margin="20,0,0,0" Background="Transparent" Click="PreviewBtn_Click"/>
+				<Button x:Name="SaveBtn" Content="Save" Grid.Column="1" HorizontalAlignment="Right" Margin="0,0,20,0" VerticalAlignment="Center" Click="SaveBtn_Click"/>
+			</Grid>
+		</AppBar>
+	</Page.BottomAppBar>
+
+    <Grid x:Name="MainGrid" Background="{StaticResource ApplicationPageBackgroundThemeBrush}">        
+        <Grid.Resources>
+            <p:ColorToBrushConverter x:Key="cbc" />
+        </Grid.Resources>
+        <MediaElement x:Name="testsound" Source="Audio/Forestland.wav" AutoPlay="False"/>
+        <Canvas x:Name="MyCanvas" Background="White"/>
+        
+        <p:RadialMenu x:Name="MainRadialMenu" VerticalAlignment="Top" HorizontalAlignment="Left" RingHoverBrush="White" BorderBrush="Black" RingBackgroundBrush="#FF58B845" FontStretch="SemiExpanded" BodyBrush="#FF58B845">
+        	<p:RadialMenu.RingActiveBrush>
+        		<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+        			<GradientStop Color="White"/>
+        			<GradientStop Color="#FFF5FF11" Offset="0.552"/>
+        			<GradientStop Color="#FFFFFF13" Offset="0.72"/>
+        		</LinearGradientBrush>
+        	</p:RadialMenu.RingActiveBrush>
+            <p:RadialMenu.Content>
+                <Image x:Name="SelectedMenu" Source="/Assets/Radial/bg.png" Margin="2"/>
+            </p:RadialMenu.Content>
+        	<p:RadialItem x:Name="TableItem" Index="5" Image="/Assets/Radial/chart.png" Label="Table" ToolTip="Tag as Question" Click="TableItem_Click">
+        		<p:RadialMenu>
+        			<p:RadialItem Index="4" Image="/Assets/Radial/remove.png" Label="Remove tag" ToolTip="Remove tag" Command="{Binding TagRemoveCommand}" />
+        			<p:RadialItem Index="7" Image="/Assets/Radial/todo.png" Label="To Do" ToolTip="Tag as To Do" Command="{Binding TagAddCommand}" CommandParameter="todo" IsChecked="{Binding IsTagTodo}" />
+        			<p:RadialItem Index="0" Image="/Assets/Radial/important.png" Label="Important" ToolTip="Tag as Important" Command="{Binding TagAddCommand}" CommandParameter="important" IsChecked="{Binding IsTagImportant}" />
+        			<p:RadialItem Index="1" Image="/Assets/Radial/question.png"  Label="Question" ToolTip="Tag as Question" Command="{Binding TagAddCommand}" CommandParameter="question" IsChecked="{Binding IsTagQuestion}"/>
+        		</p:RadialMenu>
+        	</p:RadialItem>
+            <p:RadialItem Index="6" Image="/Assets/Radial/cancel.png" Label="Undo" ToolTip="Undo" Command="{Binding UndoCommand}">
+                <p:RadialMenu>
+        			<p:RadialItem Index="0" Image="/Assets/Radial/redo-all.png" Label="Redo all" ToolTip="Redo all" Command="{Binding RedoAllCommand}" />
+        			<p:RadialItem Index="5" Image="/Assets/Radial/undo-all.png" Label="Undo all" ToolTip="Undo all" Command="{Binding UndoAllCommand}" />
+        			<p:RadialItem Index="6" Image="/Assets/Radial/undo.png" Label="Undo" ToolTip="Undo" Command="{Binding UndoCommand}" />
+        			<p:RadialItem Index="7" Image="/Assets/Radial/redo.png" Label="Redo" ToolTip="Redo" Command="{Binding RedoCommand}" />
+        		</p:RadialMenu>
+        	</p:RadialItem>
+        	<p:RadialItem x:Name="TextItem" Index="7" Image="/Assets/Radial/text.png" Label="Text" ToolTip="Font Size" ValueText="{Binding FontSize}" Click="TextItem_Click">
+        		<p:RadialSlider Nicks="9,11,13,16,20,26,36,42" Value="{Binding FontSize, Mode=TwoWay}"/>
+        	</p:RadialItem>
+        	<p:RadialItem x:Name="ImageItem" Index="0" Image="/Assets/Radial/picture.png" Label="Image" Command="{Binding CopyCommand}" Click="ImageItem_Click">
+        		<p:RadialMenu>
+        			<p:RadialItem Index="0" Image="/Assets/Radial/copy.png" Label="Copy" Command="{Binding CopyCommand}" />
+        			<p:RadialItem Index="1" Image="/Assets/Radial/paste.png" Label="Paste" Command="{Binding PasteCommand}" />
+        			<p:RadialItem Index="7" Image="/Assets/Radial/cut.png" Label="Cut" Command="{Binding CopyCommand}"/>
+        		</p:RadialMenu>
+        	</p:RadialItem>
+        	<p:RadialItem x:Name="PenItem" Index="1" Image="/Assets/Radial/pen.png" Label="Pen" ToolTip="Pen Brush" ValueBrush="{Binding PenColor, Converter={StaticResource cbc}}">
+                <p:RadialColorPicker Color="{Binding PenColor, Mode=TwoWay}" PointerPressed="PenItem_Click"/>
+        	</p:RadialItem>
+        	<p:RadialItem Index="2" Image="/Assets/Radial/solid.png" Label="Shape" ToolTip="Font Style">
+        		<p:RadialMenu>
+        			<p:RadialItem x:Name="PolygonItem" Index="1" Image="/Assets/Radial/underline.png" Label="Polygon" Mode="CheckBox" IsChecked="{Binding IsUnderline, Mode=TwoWay}" Click="PolygonItem_Click"/>
+                    <p:RadialItem x:Name="TriangleItem" Index="2" Image="/Assets/Radial/bold.png" Label="Triangle" Mode="CheckBox" IsChecked="{Binding IsBold, Mode=TwoWay}" Click="TriangleItem_Click" />
+                    <p:RadialItem x:Name="RectangleItem" Index="3" Image="/Assets/Radial/italic.png" Label="Rectangle" Mode="CheckBox" IsChecked="{Binding IsItalic, Mode=TwoWay}" Click="RectangleItem_Click" />
+                    <p:RadialItem x:Name="LineItem" Index="4" Image="/Assets/Radial/eraser.png" Label="Line" ToolTip="Clear all formatting" Command="{Binding ClearFormatCommand}" Click="LineItem_Click" />
+        			<p:RadialItem Index="5" Image="/Assets/Radial/subscript.png" Label="Subscript" Command="{Binding SubscriptCommand}" IsChecked="{Binding IsSubscript}" />
+        			<p:RadialItem Index="6" Image="/Assets/Radial/superscript.png" Label="Super script" Command="{Binding SupscriptCommand}" IsChecked="{Binding IsSupscript}" />
+        			<p:RadialItem Index="7" Image="/Assets/Radial/strikeout.png" Label="Strike" Mode="CheckBox" IsChecked="{Binding IsStrike, Mode=TwoWay}" />
+        		</p:RadialMenu>
+        	</p:RadialItem>
+        	<p:RadialItem x:Name="SelectItem" Index="3" Image="/Assets/Radial/select.png" Label="Select">
+        		<p:RadialMenu>
+        			<p:RadialItem Index="7" Image="/Assets/Radial/left.png" Label="Align Left" Command="{Binding AlignLeftCommand}" IsChecked="{Binding IsLeft}"/>
+        			<p:RadialItem Index="0" Image="/Assets/Radial/center.png" Label="Center" Command="{Binding AlignCenterCommand}" IsChecked="{Binding IsCenter}" />
+        			<p:RadialItem Index="1" Image="/Assets/Radial/right.png" Label="Align Right" Command="{Binding AlignRightCommand}" IsChecked="{Binding IsRight}" />
+        			<p:RadialItem Index="2" Image="/Assets/Radial/numbering.png" Label="Numbers" ToolTip="Numbering">
+        				<p:RadialMenu>
+        					<p:RadialItem Index="1" Image="/Assets/Radial/number1.png" ToolTip="Numbering" Command="{Binding BulletAddCommand}" CommandParameter="number1" IsChecked="{Binding IsNumber1}" />
+        					<p:RadialItem Index="2" Image="/Assets/Radial/number2.png" ToolTip="Numbering" Command="{Binding BulletAddCommand}" CommandParameter="number2" IsChecked="{Binding IsNumber2}" />
+        					<p:RadialItem Index="3" Image="/Assets/Radial/number3.png" ToolTip="Numbering" Command="{Binding BulletAddCommand}" CommandParameter="number3" IsChecked="{Binding IsNumber3}" />
+        					<p:RadialItem Index="4" Image="/Assets/Radial/eraser.png" Label="None" ToolTip="Remove Numbering" Command="{Binding BulletRemoveCommand}" />
+        					<p:RadialItem Index="5" Image="/Assets/Radial/number5.png" ToolTip="Numbering" Command="{Binding BulletAddCommand}" CommandParameter="number5" IsChecked="{Binding IsNumber5}" />
+        					<p:RadialItem Index="6" Image="/Assets/Radial/number6.png" ToolTip="Numbering" Command="{Binding BulletAddCommand}" CommandParameter="number6" IsChecked="{Binding IsNumber6}" />
+        					<p:RadialItem Index="7" Image="/Assets/Radial/number7.png" ToolTip="Numbering" Command="{Binding BulletAddCommand}" CommandParameter="number7" IsChecked="{Binding IsNumber7}" />
+        				</p:RadialMenu>
+        			</p:RadialItem>
+        			<p:RadialItem  Index="3" Image="/Assets/Radial/bullets.png" Label="Bullets" ToolTip="Bullets">
+        				<p:RadialMenu>
+        					<p:RadialItem Index="0" Image="/Assets/Radial/bullet0.png" ToolTip="Bullets" Command="{Binding BulletAddCommand}" CommandParameter="bullet0" IsChecked="{Binding IsBullet0}" />
+        					<p:RadialItem Index="1" Image="/Assets/Radial/bullet1.png" ToolTip="Bullets" Command="{Binding BulletAddCommand}" CommandParameter="bullet1" IsChecked="{Binding IsBullet1}" />
+        					<p:RadialItem Index="2" Image="/Assets/Radial/bullet2.png" ToolTip="Bullets" Command="{Binding BulletAddCommand}" CommandParameter="bullet2" IsChecked="{Binding IsBullet2}" />
+        					<p:RadialItem Index="3" Image="/Assets/Radial/bullet3.png" ToolTip="Bullets" Command="{Binding BulletAddCommand}" CommandParameter="bullet3" IsChecked="{Binding IsBullet3}" />
+        					<p:RadialItem Index="4" Image="/Assets/Radial/eraser.png" Label="None" ToolTip="Remove Bullets" Command="{Binding BulletRemoveCommand}" />
+        					<p:RadialItem Index="5" Image="/Assets/Radial/bullet5.png" ToolTip="Bullets" Command="{Binding BulletAddCommand}" CommandParameter="bullet5" IsChecked="{Binding IsBullet5}" />
+        					<p:RadialItem Index="6" Image="/Assets/Radial/bullet6.png" ToolTip="Bullets" Command="{Binding BulletAddCommand}" CommandParameter="bullet6" IsChecked="{Binding IsBullet6}" />
+        					<p:RadialItem Index="7" Image="/Assets/Radial/bullet7.png" ToolTip="Bullets" Command="{Binding BulletAddCommand}" CommandParameter="bullet7" IsChecked="{Binding IsBullet7}" />
+        				</p:RadialMenu>
+        			</p:RadialItem>
+        			<p:RadialItem Index="4" Image="/Assets/Radial/indentmore.png" Label="Indent More" ToolTip="Increase indent position" Command="{Binding IndentMoreCommand}" />
+        			<p:RadialItem Index="5" Image="/Assets/Radial/indentless.png" Label="Indent Less" ToolTip="Decrease indent position" Command="{Binding IndentLessCommand}" />
+        		</p:RadialMenu>
+        	</p:RadialItem>
+        	<p:RadialItem x:Name="ClearAllItem" Index="4" Image="/Assets/Radial/eraser.png" Label="Clear All" Command="{Binding ClearAllCommand}" Click="ClearAllItem_Click" />
+        </p:RadialMenu>
+        <Grid Name="SaveGrid" Height="130" Width="200" VerticalAlignment="Bottom" Margin="0,0,10,78" HorizontalAlignment="Right" Background="#FFD1E0FF" Visibility="Collapsed">
+        	<Grid.RowDefinitions>
+        		<RowDefinition Height="1.7*"/>
+        		<RowDefinition Height="1.7*"/>
+        		<RowDefinition/>
+        	</Grid.RowDefinitions>
+        	<Grid.ColumnDefinitions>
+        		<ColumnDefinition/>
+        		<ColumnDefinition/>
+        	</Grid.ColumnDefinitions>
+        	<TextBox HorizontalAlignment="Center" Margin="0" TextWrapping="Wrap" Text="파일이름 :" VerticalAlignment="Center" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}" SelectionHighlightColor="{x:Null}"/>
+        	<TextBox HorizontalAlignment="Center" Margin="0" TextWrapping="Wrap" Text="파일종류 :" VerticalAlignment="Center" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}" SelectionHighlightColor="{x:Null}" Grid.Row="1"/>
+        	<TextBox x:Name="FileNameBox" HorizontalAlignment="Center" Margin="0" TextWrapping="Wrap" VerticalAlignment="Center" Background="White" BorderBrush="Black" Foreground="{x:Null}" SelectionHighlightColor="{x:Null}" Grid.Column="1" BorderThickness="1" Width="84"/>
+        	<ListBox Grid.Column="1" HorizontalAlignment="Center" Margin="0" Grid.Row="1" VerticalAlignment="Center" Width="84" Height="32">
+        		<ListBoxItem x:Name="Mathmatics" Content="Math" Height="32" Width="84" Padding="0"/>
+        		<ListBoxItem x:Name="Geography" Content="Geography" Padding="0" Height="32" Width="84"/>
+        		<ListBoxItem x:Name="Science" Content="Science" Width="84" Height="32" Padding="0"/>
+        		<ListBoxItem x:Name="Etc" Content="Etc" Width="84" Height="32" Padding="0"/>
+        	</ListBox>
+        	<Button x:Name="SavefileBtn" Grid.ColumnSpan="2" Content="Save" HorizontalAlignment="Stretch" Margin="70,0" VerticalAlignment="Stretch" Grid.Row="2" Click="SavefileBtn_Click"/>
+        </Grid>
+	</Grid>
+</Page>

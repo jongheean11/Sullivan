@@ -1,0 +1,7 @@
+﻿<Breadcrumbs>
+  <TextBlock Text="Header 1" />
+  <Border>
+    <TextBlock Text="Header 2" />
+  </Border>
+  <Button>Header 3</Button>
+</Breadcrumbs>

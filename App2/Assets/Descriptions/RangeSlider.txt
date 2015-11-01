@@ -1,0 +1,1 @@
+﻿Range slider is usually used to allow users to visually set some range of values, for example, to filter information. It’s also possible just to change a single value as it is done when adjusting some settings of an application, for example volume or brightness. It’s possible to change control orientation and position it horizontally or vertically.

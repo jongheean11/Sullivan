@@ -1,0 +1,5 @@
+﻿<Accordion SelectionMode="One">
+  <AccordionItem Header="Header 1" Content="Content 1" />
+  <AccordionItem Header="Header 2" Content="Content 2" />
+  <AccordionItem Header="Header 3" Content="Content 3" />
+</Accordion>

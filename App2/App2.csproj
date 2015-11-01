@@ -1,0 +1,314 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E59D644B-88C4-4A1B-82AB-D44281C05738}</ProjectGuid>
+    <OutputType>AppContainerExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>App2</RootNamespace>
+    <AssemblyName>App2</AssemblyName>
+    <DefaultLanguage>en-US</DefaultLanguage>
+    <TargetPlatformVersion>8.1</TargetPlatformVersion>
+    <MinimumVisualStudioVersion>12</MinimumVisualStudioVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{BC8A1FFA-BEE3-4634-8014-F334798102B3};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <PackageCertificateKeyFile>App2_TemporaryKey.pfx</PackageCertificateKeyFile>
+    <ExpressionBlendVersion>12.0.41002.1</ExpressionBlendVersion>
+    <AppxAutoIncrementPackageRevision>True</AppxAutoIncrementPackageRevision>
+    <AppxBundlePlatforms>neutral</AppxBundlePlatforms>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\ARM\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|ARM'">
+    <OutputPath>bin\ARM\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="clipper_library\clipper.cs" />
+    <Compile Include="clipper_library\Properties\AssemblyInfo.cs" />
+    <Compile Include="DrawingPage.xaml.cs">
+      <DependentUpon>DrawingPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sample1.xaml.cs">
+      <DependentUpon>Sample1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Sample2.xaml.cs">
+      <DependentUpon>Sample2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Storage.xaml.cs">
+      <DependentUpon>Storage.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest">
+      <SubType>Designer</SubType>
+    </AppxManifest>
+    <None Include="App2_TemporaryKey.pfx" />
+    <None Include="packages.config" />
+    <None Include="Picture\Thumbs.db" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\fgPw.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\login.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Logo.scale-100.png" />
+    <Content Include="Assets\pw.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Radial\bg.png" />
+    <Content Include="Assets\Radial\bold.png" />
+    <Content Include="Assets\Radial\bullet0.png" />
+    <Content Include="Assets\Radial\bullet1.png" />
+    <Content Include="Assets\Radial\bullet2.png" />
+    <Content Include="Assets\Radial\bullet3.png" />
+    <Content Include="Assets\Radial\bullet5.png" />
+    <Content Include="Assets\Radial\bullet6.png" />
+    <Content Include="Assets\Radial\bullet7.png" />
+    <Content Include="Assets\Radial\bullets.png" />
+    <Content Include="Assets\Radial\cancel.png" />
+    <Content Include="Assets\Radial\cancelM.png" />
+    <Content Include="Assets\Radial\center.png" />
+    <Content Include="Assets\Radial\chart.png" />
+    <Content Include="Assets\Radial\chartM.png" />
+    <Content Include="Assets\Radial\copy.png" />
+    <Content Include="Assets\Radial\copyformat.png" />
+    <Content Include="Assets\Radial\cut.png" />
+    <Content Include="Assets\Radial\darkcolorscheme.png" />
+    <Content Include="Assets\Radial\eraser.png" />
+    <Content Include="Assets\Radial\eraserM.png" />
+    <Content Include="Assets\Radial\fill.png" />
+    <Content Include="Assets\Radial\font.png" />
+    <Content Include="Assets\Radial\fontcolor.png" />
+    <Content Include="Assets\Radial\fontsize.png" />
+    <Content Include="Assets\Radial\highlight.png" />
+    <Content Include="Assets\Radial\important.png" />
+    <Content Include="Assets\Radial\indentless.png" />
+    <Content Include="Assets\Radial\indentmore.png" />
+    <Content Include="Assets\Radial\italic.png" />
+    <Content Include="Assets\Radial\left.png" />
+    <Content Include="Assets\Radial\lightcolorscheme.png" />
+    <Content Include="Assets\Radial\number1.png" />
+    <Content Include="Assets\Radial\number2.png" />
+    <Content Include="Assets\Radial\number3.png" />
+    <Content Include="Assets\Radial\number5.png" />
+    <Content Include="Assets\Radial\number6.png" />
+    <Content Include="Assets\Radial\number7.png" />
+    <Content Include="Assets\Radial\numbering.png" />
+    <Content Include="Assets\Radial\paste.png" />
+    <Content Include="Assets\Radial\pasteformat.png" />
+    <Content Include="Assets\Radial\pen.png" />
+    <Content Include="Assets\Radial\penM.png" />
+    <Content Include="Assets\Radial\picture.png" />
+    <Content Include="Assets\Radial\pictureM.png" />
+    <Content Include="Assets\Radial\pictureS.png" />
+    <Content Include="Assets\Radial\question.png" />
+    <Content Include="Assets\Radial\redo-all.png" />
+    <Content Include="Assets\Radial\redo.png" />
+    <Content Include="Assets\Radial\remove.png" />
+    <Content Include="Assets\Radial\right.png" />
+    <Content Include="Assets\Radial\select.png" />
+    <Content Include="Assets\Radial\selectM.png" />
+    <Content Include="Assets\Radial\solid.png" />
+    <Content Include="Assets\Radial\solidM.png" />
+    <Content Include="Assets\Radial\strikeout.png" />
+    <Content Include="Assets\Radial\subscript.png" />
+    <Content Include="Assets\Radial\superscript.png" />
+    <Content Include="Assets\Radial\tags.png" />
+    <Content Include="Assets\Radial\text.png" />
+    <Content Include="Assets\Radial\textM.png" />
+    <Content Include="Assets\Radial\todo.png" />
+    <Content Include="Assets\Radial\underline.png" />
+    <Content Include="Assets\Radial\undo-all.png" />
+    <Content Include="Assets\Radial\undo.png" />
+    <Content Include="Assets\resi.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SmallLogo.scale-100.png" />
+    <Content Include="Assets\SplashScreen.scale-100.png" />
+    <Content Include="Assets\StoreLogo.scale-100.png" />
+    <Content Include="Assets\Sullivanlogo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\un.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Wide310x150Logo.scale-100.png" />
+    <Content Include="Audio\Africa_audio.wav" />
+    <Content Include="Audio\A_audio.wav" />
+    <Content Include="Audio\Do.mp3" />
+    <Content Include="Audio\DoHigh.mp3" />
+    <Content Include="Audio\E_audio.wav" />
+    <Content Include="Audio\Forestland.wav" />
+    <Content Include="Audio\I_audio.wav" />
+    <Content Include="Audio\Mi.mp3" />
+    <Content Include="Audio\MS_audio.wav" />
+    <Content Include="Audio\M_audio.wav" />
+    <Content Include="Audio\P1_audio.wav" />
+    <Content Include="Audio\P2_audio.wav" />
+    <Content Include="Audio\P3_audio.wav" />
+    <Content Include="Audio\P4_audio.wav" />
+    <Content Include="Audio\P5_audio.wav" />
+    <Content Include="Audio\Pa.mp3" />
+    <Content Include="Audio\Ra.mp3" />
+    <Content Include="Audio\Re.mp3" />
+    <Content Include="Audio\R_audio.wav" />
+    <Content Include="Audio\Sample_1_audio.wav" />
+    <Content Include="Audio\Sample_audio.wav" />
+    <Content Include="Audio\Si.mp3" />
+    <Content Include="Audio\Sol.mp3" />
+    <Content Include="Audio\W_audio.wav" />
+    <Content Include="clipper_library\clipper_library.csproj" />
+    <Content Include="Picture\150x150.png" />
+    <Content Include="Picture\30x30.png" />
+    <Content Include="Picture\310x150.png" />
+    <Content Include="Picture\620x300.png" />
+    <Content Include="Picture\acmButton.png" />
+    <Content Include="Picture\AfricaClimate.jpg" />
+    <Content Include="Picture\drawB.png" />
+    <Content Include="Picture\MsBg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Page Include="DrawingPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Sample1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Sample2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Storage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="FTD2XX_NET">
+      <HintPath>FTD2XX_NET_1010\FTD2XX_NET.dll</HintPath>
+    </Reference>
+    <Reference Include="PerpetuumSoft.Controls, Version=2.0.1.0, Culture=neutral, PublicKeyToken=869747bf8b7eefb4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Dll\PerpetuumSoft.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="PerpetuumSoft.WinRT.Framework, Version=2.0.1.0, Culture=neutral, PublicKeyToken=869747bf8b7eefb4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Dll\PerpetuumSoft.WinRT.Framework.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '12.0' ">
+    <VisualStudioVersion>12.0</VisualStudioVersion>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\WindowsXaml\v$(VisualStudioVersion)\Microsoft.Windows.UI.Xaml.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,10 @@
+﻿<TreeView>
+  <TreeViewItem Header="Item 1">
+    <TreeViewItem Header="SubItem 1-1" />
+    <TreeViewItem Header="SubItem 1-2" />
+  </TreeViewItem>
+  <TreeViewItem Header="Item 2">
+    <TreeViewItem Header="SubItem 2-1" />
+    <TreeViewItem Header="SubItem 2-2" />
+  </TreeViewItem>
+</TreeView>

@@ -1,0 +1,1 @@
+﻿<RangeSlider Minimum="0" Maximum="100" MinValue="10" MaxValue="90" Width="200" Orientation="Horizontal" Change="0.1" />

@@ -1,0 +1,7 @@
+<LayoutTransformer>
+  <LayoutTransformer.LayoutTransform>
+    <RotateTransform Angle="45" />
+  </LayoutTransformer.LayoutTransform>
+
+  <ContentPresenter />
+</LayoutTransformer>

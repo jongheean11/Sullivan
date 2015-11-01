@@ -1,0 +1,85 @@
+﻿<UserControl
+    x:Class="PerpetuumSoft.Controls.Demo.TreeViewExample"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:p="using:PerpetuumSoft.Controls" 
+    mc:Ignorable="d" d:DesignHeight="320" d:DesignWidth="470">
+
+  <Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
+    <Grid.Resources>
+      <p:HierarchicalDataTemplate x:Name="CategoryTemplate" ItemsSource="{Binding Items}">
+        <p:HierarchicalDataTemplate.ItemTemplate>
+          <DataTemplate>
+            <TextBlock Text="{Binding}" Foreground="Green"/>
+          </DataTemplate>
+        </p:HierarchicalDataTemplate.ItemTemplate>
+        <DataTemplate>
+          <TextBlock Text="{Binding Name}" Foreground="Blue"/>
+        </DataTemplate>
+      </p:HierarchicalDataTemplate>
+      <p:HierarchicalDataTemplate x:Name="RootTemplate" ItemTemplate="{StaticResource CategoryTemplate}" ItemsSource="{Binding Groups}">
+        <DataTemplate>
+          <TextBlock Text="{Binding Name}" Foreground="Red"/>
+        </DataTemplate>
+      </p:HierarchicalDataTemplate>
+    </Grid.Resources>
+    <Grid.RowDefinitions>
+      <RowDefinition Height="Auto" />
+      <RowDefinition Height="Auto" />
+      <RowDefinition Height="*" />
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+      <ColumnDefinition Width="200" />
+      <ColumnDefinition Width="Auto" />
+      <ColumnDefinition Width="*" />
+    </Grid.ColumnDefinitions>
+
+    <TextBlock Grid.ColumnSpan="3" Style="{StaticResource HeaderTextStyle}" Text="Shopping List" HorizontalAlignment="Center" />
+
+    <TextBlock Grid.Row="1" Style="{StaticResource SubheaderTextStyle}" Text="Default" HorizontalAlignment="Left" />
+    <p:TreeView Grid.Row="2">
+      <p:TreeViewItem Header="Food">
+        <p:TreeViewItem Header="Fruit">
+          <p:TreeViewItem Header="Apples" />
+          <p:TreeViewItem Header="Bananas" />
+          <p:TreeViewItem Header="Berries" />
+          <p:TreeViewItem Header="Grapes" />
+          <p:TreeViewItem Header="Vanilla" />
+        </p:TreeViewItem>
+        <p:TreeViewItem Header="Spices">
+          <p:TreeViewItem Header="Salt" />
+          <p:TreeViewItem Header="Sugar" />
+          <p:TreeViewItem Header="Ginger" />
+        </p:TreeViewItem>
+        <p:TreeViewItem Header="Meats">
+          <p:TreeViewItem Header="Sausage" />
+          <p:TreeViewItem Header="Chicken" />
+          <p:TreeViewItem Header="Pork Steaks" />
+          <p:TreeViewItem Header="Wieners" />
+        </p:TreeViewItem>
+        <p:TreeViewItem Header="Frozen">
+          <p:TreeViewItem Header="Broccoli" />
+          <p:TreeViewItem Header="Carrots" />
+          <p:TreeViewItem Header="Ice Cream" />
+          <p:TreeViewItem Header="Pizza" />
+        </p:TreeViewItem>
+      </p:TreeViewItem>
+      <p:TreeViewItem Header="Medicine">
+        <p:TreeViewItem Header="Antiacid" />
+        <p:TreeViewItem Header="Hydrogen Peroxide" />
+        <p:TreeViewItem Header="Pain-Reliever" />
+      </p:TreeViewItem>
+      <p:TreeViewItem Header="Toiletries">
+        <p:TreeViewItem Header="Anti-Bacterial Soap" />
+        <p:TreeViewItem Header="Lotion" />
+        <p:TreeViewItem Header="Shampoo" />
+        <p:TreeViewItem Header="Soap" />
+      </p:TreeViewItem>
+    </p:TreeView>
+
+    <TextBlock Grid.Column="1" Grid.Row="1" Style="{StaticResource SubheaderTextStyle}" Text="Templated" HorizontalAlignment="Left" />
+    <p:TreeView Grid.Column="1" Grid.Row="2" x:Name="TemplatedTreeView" ItemTemplate="{StaticResource RootTemplate}" />
+  </Grid>
+</UserControl>

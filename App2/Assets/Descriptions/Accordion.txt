@@ -1,0 +1,1 @@
+﻿An accordion control adds the ability to organize the content into expandable panels. When clicked, the panel makes the content visible while the other panels are hidden. It’s possible to add virtually any content to the panes.

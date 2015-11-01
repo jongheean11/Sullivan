@@ -1,0 +1,11 @@
+﻿<TabControl TabStripPlacement="Top">
+  <TabItem Header="First header" Content="First content"/>
+  <TabItem>
+    <TabItem.Header>
+      <TextBlock Text="Second header" />
+    </TabItem.Header>
+    <TabItem.Content>
+      <TextBlock Text="Second content" />
+    </TabItem.Content>
+  </TabItem>
+</TabControl>

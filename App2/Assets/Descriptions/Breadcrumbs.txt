@@ -1,0 +1,1 @@
+﻿Breadcrumb control is a part of the navigation that makes it easy to navigate the content. It’s very convenient for the content with extremely complicated and nested structure, since you get at a glance idea of how many items are inside the definite menu item and can always get back to the previous menu level.

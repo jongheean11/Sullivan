@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>PerpetuumSoft.Controls</id>
+    <version>2.0.1</version>
+    <title>Perpetuum UI Controls for Windows 8</title>
+    <authors>Perpetuum Software LLC</authors>
+    <owners>Perpetuum Software LLC</owners>
+    <licenseUrl>http://perpetuumsoft.com/sf/en/nugetRes/XamlControls/EULA.htm</licenseUrl>
+    <projectUrl>http://www.perpetuumsoft.com/Product.aspx?lang=en&amp;pid=150&amp;tid=overview</projectUrl>
+    <iconUrl>http://perpetuumsoft.com/sf/en/nugetRes/XamlControls/perpetuumsoft.ico</iconUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>A rich library of user interface XAML controls for Windows 8 that includes: Radial Menu, Calendar, Color Picker, TextBox, Plain Menu, Time Picker, Rating, UpDown, Expander, Accordion, Breadcrumbs, Layout Transform, Range Slider, Tab Control, Tree View and Flyout</description>
+    <summary>A rich library of user interface XAML controls for Windows 8 that includes: Radial Menu, Calendar, Color Picker, TextBox, Plain Menu, Time Picker, Rating, UpDown, Expande and Flyout</summary>
+    <releaseNotes>6 new UI controls: Accordion, Breadcrumb, RangeSlider, TabControl, TreeView, Layout</releaseNotes>
+    <copyright>© 2013 Perpetuum Software LLC</copyright>
+    <language />
+    <tags>Windows 8 controls WinRT menu control UI calendar time picker expander UpDown Flyout Popup ColorPicker ColorDialog Tree view Tab Control Breadcrumbs Accordion Range Slider Control</tags>
+  </metadata>
+</package>

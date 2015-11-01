@@ -1,0 +1,255 @@
+﻿<UserControl
+    x:Class="PerpetuumSoft.Controls.Demo.TabControlExample"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:p="using:PerpetuumSoft.Controls" 
+    mc:Ignorable="d" d:DesignHeight="320" d:DesignWidth="470">
+  <Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
+    <Grid.RowDefinitions>
+      <RowDefinition Height="Auto"/>
+      <RowDefinition Height="*"/>
+    </Grid.RowDefinitions>
+    <TextBlock Style="{StaticResource HeaderTextStyle}" Text="Perpetuum Software Products" HorizontalAlignment="Center" Margin="0,10,0,20"/>
+    <p:TabControl Grid.Row="1">
+      <p:TabItem Header="Reporting">
+        <p:TabControl TabStripPlacement="Left" VerticalAlignment="Stretch">
+          <p:TabItem Header="SharpShooter&#x0a;Reports.Silverlight">
+            <Grid>
+              <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="Auto" />
+              </Grid.RowDefinitions>
+              <Image Source="../Assets/Perpetuum/SSRSilverlight.png" HorizontalAlignment="Center" Width="150"/>
+              <TextBlock Grid.Row="1" TextWrapping="Wrap" Style="{StaticResource SubheaderTextStyle}" HorizontalAlignment="Stretch" VerticalAlignment="Top" 
+                           Text="    SharpShooter Reports.Silverlight is a new solution designed to create Web reports of the next generation. The use of Silverlight technology guarantees correct report display with the ability to delicately set the appearance, compatibility with the most popular browsers, no necessity to install additional software on the client side. SharpShooter Reports.Silverlight provides high interactivity and offers possibility to preview, print, pan, zoom, and export reports to the most wide-spread formats, quickly search for necessary information and conveniently navigate the report." />
+              <HyperlinkButton FontSize="26.667" Grid.Row="2" HorizontalAlignment="Right" NavigateUri="http://www.perpetuumsoft.com/Report-Sharp-Shooter-for-Silverlight.aspx">More info</HyperlinkButton>
+            </Grid>
+          </p:TabItem>
+          <p:TabItem Header="SharpShooter&#x0a;Reports.Web">
+            <Grid>
+              <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="Auto" />
+              </Grid.RowDefinitions>
+              <Image Source="../Assets/Perpetuum/SSRWeb.png" HorizontalAlignment="Center" Width="150"/>
+              <TextBlock Grid.Row="1" TextWrapping="Wrap" Style="{StaticResource SubheaderTextStyle}" HorizontalAlignment="Stretch" VerticalAlignment="Top" 
+                           Text="    SharpShooter Reports.Web is the true cross platform report viewer as it offers the ability to deliver reports to Windows, Linux, Mac OS or even iOS and Android tablets and phones. The created reports can be easily integrated in any web sites and web pages, including ASP.NET MVC and ASP.NET apps." />
+              <HyperlinkButton FontSize="26.667" Grid.Row="2" HorizontalAlignment="Right" NavigateUri="http://www.perpetuumsoft.com/Product.aspx?pid=143">More info</HyperlinkButton>
+            </Grid>
+          </p:TabItem>
+          <p:TabItem Header="SharpShooter&#x0a;Reports.Win">
+            <Grid>
+              <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="Auto" />
+              </Grid.RowDefinitions>
+              <Image Source="../Assets/Perpetuum/SSRWin.png" HorizontalAlignment="Center" Width="150"/>
+              <TextBlock Grid.Row="1" TextWrapping="Wrap" Style="{StaticResource SubheaderTextStyle}" HorizontalAlignment="Stretch" VerticalAlignment="Top"
+                           Text="    SharpShooter Reports.Win™ is the most flexible .NET report engine available on the market. It's a suite of 100% managed .NET components allowing the creation of both bound and unbound reports, with an unlimited number of master-detail relations, groups, columns, and crosses. The product supports the ADO.NET hierarchical data model, WinForms and C#/VB.NET scripting. The package includes the designer needed for final documents and report templates. The built-in pivot table component allows dynamic data analysis." />
+              <HyperlinkButton FontSize="26.667" Grid.Row="2" HorizontalAlignment="Right" NavigateUri="http://www.perpetuumsoft.com/Product.aspx?pid=21">More info</HyperlinkButton>
+            </Grid>
+          </p:TabItem>
+          <p:TabItem Header="SharpShooter&#x0a;Reports.WPF">
+            <Grid>
+              <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="Auto" />
+              </Grid.RowDefinitions>
+              <Image Source="../Assets/Perpetuum/SSRWPF.png" HorizontalAlignment="Center" Width="150"/>
+              <TextBlock Grid.Row="1" TextWrapping="Wrap" Style="{StaticResource SubheaderTextStyle}" HorizontalAlignment="Stretch" VerticalAlignment="Top"
+                           Text="    SharpShooter Reports.WPF is a powerful reporting component able to create even the most complicated reports from multiple data sources with just few mouse clicks and deliver these reports to Windows Presentation Foundation." />
+              <HyperlinkButton FontSize="26.667" Grid.Row="2" HorizontalAlignment="Right" NavigateUri="http://www.perpetuumsoft.com/Product.aspx?pid=144">More info</HyperlinkButton>
+            </Grid>
+          </p:TabItem>
+          <p:TabItem Header="SharpShooter&#x0a;Reports.Enterprise">
+            <Grid>
+              <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="Auto" />
+              </Grid.RowDefinitions>
+              <Image Source="../Assets/Perpetuum/SSREnterprise.png" HorizontalAlignment="Center" Width="150"/>
+              <TextBlock Grid.Row="1" TextWrapping="Wrap" Style="{StaticResource SubheaderTextStyle}" HorizontalAlignment="Stretch" VerticalAlignment="Top"
+                           Text="    SharpShooter Reports.Enterprise is a set of components for reports generation in Windows Forms, Windows Presentation Foundation (WPF), ASP.NET, HTML5, and Silverlight applications. The product allows the creation of both bound and unbound reports, with an unlimited number of master-detail relations, groups, columns, and crosses." />
+              <HyperlinkButton FontSize="26.667" Grid.Row="2" HorizontalAlignment="Right" NavigateUri="http://www.perpetuumsoft.com/Product.aspx?pid=147">More info</HyperlinkButton>
+            </Grid>
+          </p:TabItem>
+          <p:TabItem Header="SharpShooter&#x0a;OLAP">
+            <Grid>
+              <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="Auto" />
+              </Grid.RowDefinitions>
+              <Image Source="../Assets/Perpetuum/SSOLAP.png" HorizontalAlignment="Center" Width="150"/>
+              <TextBlock Grid.Row="1" TextWrapping="Wrap" Style="{StaticResource SubheaderTextStyle}" HorizontalAlignment="Stretch" VerticalAlignment="Top"
+                           Text="    The SharpShooter OLAP™ package includes SharpShooter OLAP™ – an OLAP component for multidimensional data analysis; and SharpShooter Charts™ – a component for graphical data representation. The integration of the components provides an advanced and intuitive user interface specifically built for OLAP pivoting, slicing, drilldown and data visualization in the form of interactive charts and graphs. The functionality of OLAP technology, rich library of series types and the ability to use any .Net data sources allow the creation of effective decision support systems." />
+              <HyperlinkButton FontSize="26.667" Grid.Row="2" HorizontalAlignment="Right" NavigateUri="http://www.perpetuumsoft.com/Product.aspx?pid=59">More info</HyperlinkButton>
+            </Grid>
+          </p:TabItem>
+        </p:TabControl>
+      </p:TabItem>
+      <p:TabItem Header="Diagramming">
+        <p:TabControl TabStripPlacement="Bottom" VerticalAlignment="Stretch">
+          <p:TabItem Header="SharpShooter&#x0a;Diagrams Designer">
+            <Grid>
+              <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="Auto" />
+              </Grid.RowDefinitions>
+              <Image Source="../Assets/Perpetuum/SSD.png" HorizontalAlignment="Center" Width="150"/>
+              <TextBlock Grid.Row="1" TextWrapping="Wrap" Style="{StaticResource SubheaderTextStyle}" HorizontalAlignment="Stretch" VerticalAlignment="Top" 
+                           Text="    SharpShooter Diagrams™ is a set of components that allows adding the unified designer for the creation of flow charts, org charts, other diagram types and specialized graphics to your Silverlight application. Googling will offer you a plenty of analogous solutions and it's quite problematic to choose the solution that will completely fit you. What makes SharpShooter Diagrams™ unique? Our development is a base for our own commercial online diagram designer that is used by thousands of users all over the world. So, we are really eating our own dog food! And since all code goes to the online application, we have to add only those features that are in real demand for end users and have to prove it in battle conditions." />
+              <HyperlinkButton FontSize="26.667" Grid.Row="2" HorizontalAlignment="Right" NavigateUri="http://www.perpetuumsoft.com/SharpShooter-Diagrams.aspx">More info</HyperlinkButton>
+            </Grid>
+          </p:TabItem>
+          <p:TabItem Header="SharpShooter&#x0a;Diagrams Viewer">
+            <Grid>
+              <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="Auto" />
+              </Grid.RowDefinitions>
+              <Image Source="../Assets/Perpetuum/SSD.png" HorizontalAlignment="Center" Width="150"/>
+              <TextBlock Grid.Row="1" TextWrapping="Wrap" Style="{StaticResource SubheaderTextStyle}" HorizontalAlignment="Stretch" VerticalAlignment="Top" 
+                           Text="    Imagine you need to add couple of diagrams into your application. What is the first thing that comes to your mind to solve this task? Most will say: 'Develop a diagram designer on my own or spent thousands of dollars for sophisticated designer with plenty of features I will never use and integrate it to my app…' And the task that seemed so small and simple becomes an expensive and time-consuming problem. Not anymore with our unique solution SharpShooter Diagrams Viewer - a set of software services and components allowing you to design diagrams with a web designer and add interactive ready diagrams to your Silverlight application." />
+              <HyperlinkButton FontSize="26.667" Grid.Row="2" HorizontalAlignment="Right" NavigateUri="http://www.perpetuumsoft.com/Product.aspx?pid=146">More info</HyperlinkButton>
+            </Grid>
+          </p:TabItem>
+        </p:TabControl>
+      </p:TabItem>
+      <p:TabItem Header="Data vizualization">
+        <p:TabControl TabStripPlacement="Right" VerticalAlignment="Stretch">
+          <p:TabItem Header="Perfect Widgets for HTML5">
+            <Grid>
+              <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="Auto" />
+              </Grid.RowDefinitions>
+              <Image Source="../Assets/Perpetuum/PerfectWidgets.png" HorizontalAlignment="Center" Width="150"/>
+              <TextBlock Grid.Row="1" TextWrapping="Wrap" Style="{StaticResource SubheaderTextStyle}" HorizontalAlignment="Stretch" VerticalAlignment="Top" 
+                           Text="    Developers can seamlessly add Perfect Widgets to application of any type: ASP, ASP.NET, PHP, JSP, ColdFusion, Ruby on Rails, and simple HTML pages. It's as simple as writing few lines of code and insert JavaScript into the page. Users can access these widgets via any device – desktop, laptop, mobile (including iPhone and iPad) and in any browser including IE, FireFox, Chrome, Opera, Safari, etc. If necessary, users can interact with gauges: set values with a mouse, etc. It is also possible to use gauge offline." />
+              <HyperlinkButton FontSize="26.667" Grid.Row="2" HorizontalAlignment="Right" NavigateUri="http://perfectwidgets.com/">More info</HyperlinkButton>
+            </Grid>
+          </p:TabItem>
+          <p:TabItem Header="Ribbon Bar Icons">
+            <Grid>
+              <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="Auto" />
+              </Grid.RowDefinitions>
+              <Image Source="../Assets/Perpetuum/RBI.png" HorizontalAlignment="Center" Width="150"/>
+              <TextBlock Grid.Row="1" TextWrapping="Wrap" Style="{StaticResource SubheaderTextStyle}" HorizontalAlignment="Stretch" VerticalAlignment="Top" 
+                           Text="    Ribbon Bar Icons is an ultimate collection of 1170 professionally designed icons for Business Intelligence applications and websites. All icons are optimized for Ribbon Toolbar and drawn in Vista style. The icon set comes in all standard sizes, including 16x16, 24x24, 32x32, 48x48, 64x64, 128x128 and 256x256. The icons come in True Color with semi-transparency. The following file formats are supported: PNG and ICO. Distribution of icons inside your applications is royalty-free." />
+              <HyperlinkButton FontSize="26.667" Grid.Row="2" HorizontalAlignment="Right" NavigateUri="http://www.perpetuumsoft.com/Product.aspx?pid=82">More info</HyperlinkButton>
+            </Grid>
+          </p:TabItem>
+          <p:TabItem Header="SharpShooter Dashboards">
+            <Grid>
+              <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="Auto" />
+              </Grid.RowDefinitions>
+              <Image Source="../Assets/Perpetuum/SSDashboard.png" HorizontalAlignment="Center" Width="150"/>
+              <TextBlock Grid.Row="1" TextWrapping="Wrap" Style="{StaticResource SubheaderTextStyle}" HorizontalAlignment="Stretch" VerticalAlignment="Top" 
+                           Text="    SharpShooter Dashboards™ is a pack of .NET components designed for the creation of complicated and intelligent digital dashboards. The package includes SharpShooter Gauges™ and SharpShooter Charts™. These products provide an interconnected framework with unified design time and runtime customization facilities, common data management and appearance customization methods. SharpShooter Dashboards™ package components feature identical designers, unique architecture, intuitive interface and a rich library of ready-made gauge and chart elements. The products are compatible with .NET and easily integrate into MS Visual Studio." />
+              <HyperlinkButton FontSize="26.667" Grid.Row="2" HorizontalAlignment="Right" NavigateUri="http://www.perpetuumsoft.com/Product.aspx?pid=44">More info</HyperlinkButton>
+            </Grid>
+          </p:TabItem>
+          <p:TabItem Header="SharpShooter Gauges">
+            <Grid>
+              <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="Auto" />
+              </Grid.RowDefinitions>
+              <Image Source="../Assets/Perpetuum/SSG.png" HorizontalAlignment="Center" Width="150"/>
+              <TextBlock Grid.Row="1" TextWrapping="Wrap" Style="{StaticResource SubheaderTextStyle}" HorizontalAlignment="Stretch" VerticalAlignment="Top" 
+                           Text="    SharpShooter Gauges™ is a revolutionary solution in the field of instrumentation and graphic components for .NET. A full-featured graphics editor allows the creation of new visual components, combining both unique appearance and functionality, with only a few mouse clicks. It provides both common controls such as Meters, Dials, Sliders, Gauges, and Switches as well as specialized elements for your industry: Manipulators, Special-purpose Devices, etc. A library of ready-made components featuring more than 130 controls is available." />
+              <HyperlinkButton FontSize="26.667" Grid.Row="2" HorizontalAlignment="Right" NavigateUri="http://www.perpetuumsoft.com/Product.aspx?pid=22">More info</HyperlinkButton>
+            </Grid>
+          </p:TabItem>
+          <p:TabItem Header="Instrumentation Widgets">
+            <Grid>
+              <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="Auto" />
+              </Grid.RowDefinitions>
+              <Image Source="../Assets/Perpetuum/IW.png" HorizontalAlignment="Center" Width="150"/>
+              <TextBlock Grid.Row="1" TextWrapping="Wrap" Style="{StaticResource SubheaderTextStyle}" HorizontalAlignment="Stretch" VerticalAlignment="Top" 
+                           Text="    Instrumentation Widgets™ is a library of meters, indicators, scales, sliders, gauges, knobs, buttons, dials, thermometers, switches, matrixes, LEDs, and other .NET instrumentation controls that emulate hardware devices. The product contains only 100% native .NET managed components written in C#. All controls use double buffering to produce smooth animation and avoid flickering. The instrumentation controls are fully scalable and customizable. Moreover, the package supports a data binding feature." />
+              <HyperlinkButton FontSize="26.667" Grid.Row="2" HorizontalAlignment="Right" NavigateUri="http://www.perpetuumsoft.com/Product.aspx?pid=34">More info</HyperlinkButton>
+            </Grid>
+          </p:TabItem>
+          <p:TabItem Header="Instrumentation Widgets for PDA">
+            <Grid>
+              <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="Auto" />
+              </Grid.RowDefinitions>
+              <Image Source="../Assets/Perpetuum/IW4PDA.png" HorizontalAlignment="Center" Width="150"/>
+              <TextBlock Grid.Row="1" TextWrapping="Wrap" Style="{StaticResource SubheaderTextStyle}" HorizontalAlignment="Stretch" VerticalAlignment="Top" 
+                           Text="    Instrumentation Widgets for PDA™ is a complete solution for creating complex user interfaces with the look and feel of real hardware. The library includes meters, sliders, gauges, switches, toggles, dials, and other .NET Compact Framework components written in C#. All controls use double buffering to produce smooth animation and avoid flickering. Moreover, the components are fully customizable: users can change size, color, font type, value range, and other properties of each component." />
+              <HyperlinkButton FontSize="26.667" Grid.Row="2" HorizontalAlignment="Right" NavigateUri="http://www.perpetuumsoft.com/Product.aspx?pid=36">More info</HyperlinkButton>
+            </Grid>
+          </p:TabItem>
+        </p:TabControl>
+      </p:TabItem>
+      <p:TabItem Header="Viewers for Reporting Services">
+        <p:TabControl TabStripPlacement="Top" VerticalAlignment="Stretch">
+          <p:TabItem Header="Sliverlight Viewer">
+            <Grid>
+              <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="Auto" />
+              </Grid.RowDefinitions>
+              <Image Source="../Assets/Perpetuum/SLV4RS.png" HorizontalAlignment="Center" Width="150"/>
+              <TextBlock Grid.Row="1" TextWrapping="Wrap" Style="{StaticResource SubheaderTextStyle}" HorizontalAlignment="Stretch" VerticalAlignment="Top" 
+                           Text="    Silverlight Viewer for Reporting Services – is the first on the market product which is intended for displaying the Reporting Services reports directly in Silverlight applications. The product includes a native Silverlight control for reports output and provides rich user experience for your RIA building: zooming, interactive sorting, panning, printing. Delicate set up of Silverlight Viewer for Reporting Services design with the use of styles and templates allows the changing of the control appearance according to the user's demands. The full compatibility with Silverlight 3.0 provides the ability to use out-of-browser mode. Export to PDF, Excel, Html, Cvs, Xml, Mhtml, TIFF is available." />
+              <HyperlinkButton FontSize="26.667" Grid.Row="2" HorizontalAlignment="Right" NavigateUri="http://www.perpetuumsoft.com/Product.aspx?pid=116">More info</HyperlinkButton>
+            </Grid>
+          </p:TabItem>
+          <p:TabItem Header="WPF Viewer">
+            <Grid>
+              <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="Auto" />
+              </Grid.RowDefinitions>
+              <Image Source="../Assets/Perpetuum/WPFV4RS.png" HorizontalAlignment="Center" Width="150"/>
+              <TextBlock Grid.Row="1" TextWrapping="Wrap" Style="{StaticResource SubheaderTextStyle}" HorizontalAlignment="Stretch" VerticalAlignment="Top" 
+                           Text="    WPF Viewer for Reporting Services is the first product on the market offering the ability to view reports generated in Reporting Services in WPF applications. It represents the report in XAML format to make it easy to add the control to any WPF app. Convenient Item Templates for Visual Studio 2008/2010/2011 will minimize setup effort. Availability of NuGet Package allows quick integration into the project." />
+              <HyperlinkButton FontSize="26.667" Grid.Row="2" HorizontalAlignment="Right" NavigateUri="http://www.perpetuumsoft.com/Product.aspx?pid=148">More info</HyperlinkButton>
+            </Grid>
+          </p:TabItem>
+          <p:TabItem Header="WinRT Viewer">
+            <Grid>
+              <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="Auto" />
+              </Grid.RowDefinitions>
+              <Image Source="../Assets/Perpetuum/WinRTV4RS.png" HorizontalAlignment="Center" Width="150"/>
+              <TextBlock Grid.Row="1" TextWrapping="Wrap" Style="{StaticResource SubheaderTextStyle}" HorizontalAlignment="Stretch" VerticalAlignment="Top" 
+                           Text="    WinRT Viewer for Reporting Services makes it possible to view and work with SSRS reports under Windows 8. WinRT Viewer for Reporting Services can easily integrate SSRS reports into native Windows 8 XAML and WinRT based applications." />
+              <HyperlinkButton FontSize="26.667" Grid.Row="2" HorizontalAlignment="Right" NavigateUri="http://www.perpetuumsoft.com/Product.aspx?pid=145">More info</HyperlinkButton>
+            </Grid>
+          </p:TabItem>
+        </p:TabControl>
+      </p:TabItem>
+    </p:TabControl>
+  </Grid>
+</UserControl>

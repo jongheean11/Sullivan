@@ -1,0 +1,1 @@
+﻿Tree View control adds hierarchical view of the information structured as tree with nodes. It is especially useful to show document headings, files and directories or any other hierarchic structures. The control supports HierarchicalDataTemplate that allows the creation of templates for hierarchical structures.

@@ -1,0 +1,136 @@
+C:\Users\James\documents\visual studio 2013\Projects\App2\App2\bin\Debug\App.xbf
+C:\Users\James\documents\visual studio 2013\Projects\App2\App2\bin\Debug\DrawingPage.xbf
+C:\Users\James\documents\visual studio 2013\Projects\App2\App2\bin\Debug\MainPage.xbf
+C:\Users\James\documents\visual studio 2013\Projects\App2\App2\bin\Debug\App2.exe
+C:\Users\James\documents\visual studio 2013\Projects\App2\App2\bin\Debug\App2.pdb
+C:\Users\James\documents\visual studio 2013\Projects\App2\App2\bin\Debug\resources.pri
+C:\Users\James\documents\visual studio 2013\Projects\App2\App2\bin\Debug\AppxManifest.xml
+C:\Users\James\documents\visual studio 2013\Projects\App2\App2\bin\Debug\App2.build.appxrecipe
+C:\Users\James\documents\visual studio 2013\Projects\App2\App2\bin\Debug\FTD2XX_NET.dll
+C:\Users\James\documents\visual studio 2013\Projects\App2\App2\bin\Debug\PerpetuumSoft.Controls.dll
+C:\Users\James\documents\visual studio 2013\Projects\App2\App2\bin\Debug\PerpetuumSoft.WinRT.Framework.dll
+C:\Users\James\documents\visual studio 2013\Projects\App2\App2\bin\Debug\FTD2XX_NET.xml
+C:\Users\James\documents\visual studio 2013\Projects\App2\App2\bin\Debug\PerpetuumSoft.Controls.pri
+C:\Users\James\documents\visual studio 2013\Projects\App2\App2\bin\Debug\PerpetuumSoft.WinRT.Framework.pri
+C:\Users\James\documents\visual studio 2013\Projects\App2\App2\obj\Debug\App.g.i.cs
+C:\Users\James\documents\visual studio 2013\Projects\App2\App2\obj\Debug\App.g.cs
+C:\Users\James\documents\visual studio 2013\Projects\App2\App2\obj\Debug\DrawingPage.g.i.cs
+C:\Users\James\documents\visual studio 2013\Projects\App2\App2\obj\Debug\DrawingPage.g.cs
+C:\Users\James\documents\visual studio 2013\Projects\App2\App2\obj\Debug\MainPage.g.i.cs
+C:\Users\James\documents\visual studio 2013\Projects\App2\App2\obj\Debug\MainPage.g.cs
+C:\Users\James\documents\visual studio 2013\Projects\App2\App2\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\James\documents\visual studio 2013\Projects\App2\App2\obj\Debug\App.xaml
+C:\Users\James\documents\visual studio 2013\Projects\App2\App2\obj\Debug\MainPage.xaml
+C:\Users\James\documents\visual studio 2013\Projects\App2\App2\obj\Debug\App.xbf
+C:\Users\James\documents\visual studio 2013\Projects\App2\App2\obj\Debug\MainPage.xbf
+C:\Users\James\documents\visual studio 2013\Projects\App2\App2\obj\Debug\XamlSaveStateFile.xml
+C:\Users\James\documents\visual studio 2013\Projects\App2\App2\obj\Debug\DrawingPage.xaml
+C:\Users\James\documents\visual studio 2013\Projects\App2\App2\obj\Debug\DrawingPage.xbf
+C:\Users\James\documents\visual studio 2013\Projects\App2\App2\obj\Debug\App2.exe
+C:\Users\James\documents\visual studio 2013\Projects\App2\App2\obj\Debug\App2.pdb
+C:\Users\James\documents\visual studio 2013\Projects\App2\App2\obj\Debug\App2.csproj.GenerateResource.Cache
+C:\Users\James\documents\visual studio 2013\Projects\App2\App2\obj\Debug\priconfig.xml
+C:\Users\James\documents\visual studio 2013\Projects\App2\App2\obj\Debug\priconfig.xml.intermediate
+C:\Users\James\documents\visual studio 2013\Projects\App2\App2\obj\Debug\layout.resfiles
+C:\Users\James\documents\visual studio 2013\Projects\App2\App2\obj\Debug\layout.resfiles.intermediate
+C:\Users\James\documents\visual studio 2013\Projects\App2\App2\obj\Debug\resources.resfiles
+C:\Users\James\documents\visual studio 2013\Projects\App2\App2\obj\Debug\resources.resfiles.intermediate
+C:\Users\James\documents\visual studio 2013\Projects\App2\App2\obj\Debug\pri.resfiles
+C:\Users\James\documents\visual studio 2013\Projects\App2\App2\obj\Debug\pri.resfiles.intermediate
+C:\Users\James\documents\visual studio 2013\Projects\App2\App2\obj\Debug\qualifiers.txt
+C:\Users\James\documents\visual studio 2013\Projects\App2\App2\obj\Debug\qualifiers.txt.intermediate
+C:\Users\James\documents\visual studio 2013\Projects\App2\App2\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\James\documents\visual studio 2013\Projects\App2\App2\obj\Debug\PerpetuumSoft.Controls.pri.xml
+C:\Users\James\documents\visual studio 2013\Projects\App2\App2\obj\Debug\PerpetuumSoft.WinRT.Framework.pri.xml
+C:\Users\James\documents\visual studio 2013\Projects\App2\App2\obj\Debug\ProjectArchitectures.txt
+C:\Users\James\documents\visual studio 2013\Projects\App2\App2\bin\Debug\Assets\fgPw.png
+C:\Users\James\documents\visual studio 2013\Projects\App2\App2\bin\Debug\Assets\login.png
+C:\Users\James\documents\visual studio 2013\Projects\App2\App2\bin\Debug\Assets\pw.png
+C:\Users\James\documents\visual studio 2013\Projects\App2\App2\bin\Debug\Assets\resi.png
+C:\Users\James\documents\visual studio 2013\Projects\App2\App2\bin\Debug\Assets\Sullivanlogo.png
+C:\Users\James\documents\visual studio 2013\Projects\App2\App2\bin\Debug\Assets\un.png
+C:\Users\James\documents\visual studio 2013\Projects\App2\App2\bin\Debug\KakaoTalk_02e9cfaf2f9c1bbf.jpg
+C:\Users\James\documents\visual studio 2013\Projects\App2\App2\obj\Debug\Sample1.g.i.cs
+C:\Users\James\documents\visual studio 2013\Projects\App2\App2\obj\Debug\Sample1.g.cs
+C:\Users\James\documents\visual studio 2013\Projects\App2\App2\obj\Debug\Sample2.g.i.cs
+C:\Users\James\documents\visual studio 2013\Projects\App2\App2\obj\Debug\Sample2.g.cs
+C:\Users\James\documents\visual studio 2013\Projects\App2\App2\bin\Debug\Sample1.xbf
+C:\Users\James\documents\visual studio 2013\Projects\App2\App2\bin\Debug\Sample2.xbf
+C:\Users\James\documents\visual studio 2013\Projects\App2\App2\obj\Debug\Sample1.xaml
+C:\Users\James\documents\visual studio 2013\Projects\App2\App2\obj\Debug\Sample2.xaml
+C:\Users\James\documents\visual studio 2013\Projects\App2\App2\obj\Debug\Sample1.xbf
+C:\Users\James\documents\visual studio 2013\Projects\App2\App2\obj\Debug\Sample2.xbf
+C:\Users\James\documents\visual studio 2013\Projects\App2\App2\bin\Debug\Storage.xbf
+C:\Users\James\documents\visual studio 2013\Projects\App2\App2\obj\Debug\Storage.g.i.cs
+C:\Users\James\documents\visual studio 2013\Projects\App2\App2\obj\Debug\Storage.g.cs
+C:\Users\James\documents\visual studio 2013\Projects\App2\App2\obj\Debug\Storage.xaml
+C:\Users\James\documents\visual studio 2013\Projects\App2\App2\obj\Debug\Storage.xbf
+C:\Users\James\documents\visual studio 2013\Projects\App2\App2\obj\Debug\App2.csprojResolveAssemblyReference.cache
+C:\Users\James\Desktop\졸프\졸프\App2\App2\bin\Debug\Assets\fgPw.png
+C:\Users\James\Desktop\졸프\졸프\App2\App2\bin\Debug\Assets\login.png
+C:\Users\James\Desktop\졸프\졸프\App2\App2\bin\Debug\Assets\pw.png
+C:\Users\James\Desktop\졸프\졸프\App2\App2\bin\Debug\Assets\resi.png
+C:\Users\James\Desktop\졸프\졸프\App2\App2\bin\Debug\Assets\Sullivanlogo.png
+C:\Users\James\Desktop\졸프\졸프\App2\App2\bin\Debug\Assets\un.png
+C:\Users\James\Desktop\졸프\졸프\App2\App2\bin\Debug\App.xbf
+C:\Users\James\Desktop\졸프\졸프\App2\App2\bin\Debug\DrawingPage.xbf
+C:\Users\James\Desktop\졸프\졸프\App2\App2\bin\Debug\MainPage.xbf
+C:\Users\James\Desktop\졸프\졸프\App2\App2\bin\Debug\Sample1.xbf
+C:\Users\James\Desktop\졸프\졸프\App2\App2\bin\Debug\Sample2.xbf
+C:\Users\James\Desktop\졸프\졸프\App2\App2\bin\Debug\Storage.xbf
+C:\Users\James\Desktop\졸프\졸프\App2\App2\bin\Debug\App2.xr.xml
+C:\Users\James\Desktop\졸프\졸프\App2\App2\bin\Debug\App2.exe
+C:\Users\James\Desktop\졸프\졸프\App2\App2\bin\Debug\App2.pdb
+C:\Users\James\Desktop\졸프\졸프\App2\App2\bin\Debug\resources.pri
+C:\Users\James\Desktop\졸프\졸프\App2\App2\bin\Debug\AppxManifest.xml
+C:\Users\James\Desktop\졸프\졸프\App2\App2\bin\Debug\App2.build.appxrecipe
+C:\Users\James\Desktop\졸프\졸프\App2\App2\bin\Debug\FTD2XX_NET.dll
+C:\Users\James\Desktop\졸프\졸프\App2\App2\bin\Debug\PerpetuumSoft.Controls.dll
+C:\Users\James\Desktop\졸프\졸프\App2\App2\bin\Debug\PerpetuumSoft.WinRT.Framework.dll
+C:\Users\James\Desktop\졸프\졸프\App2\App2\bin\Debug\FTD2XX_NET.xml
+C:\Users\James\Desktop\졸프\졸프\App2\App2\bin\Debug\PerpetuumSoft.Controls.pri
+C:\Users\James\Desktop\졸프\졸프\App2\App2\bin\Debug\PerpetuumSoft.WinRT.Framework.pri
+C:\Users\James\Desktop\졸프\졸프\App2\App2\obj\Debug\App.g.i.cs
+C:\Users\James\Desktop\졸프\졸프\App2\App2\obj\Debug\App.g.cs
+C:\Users\James\Desktop\졸프\졸프\App2\App2\obj\Debug\DrawingPage.g.i.cs
+C:\Users\James\Desktop\졸프\졸프\App2\App2\obj\Debug\DrawingPage.g.cs
+C:\Users\James\Desktop\졸프\졸프\App2\App2\obj\Debug\MainPage.g.i.cs
+C:\Users\James\Desktop\졸프\졸프\App2\App2\obj\Debug\MainPage.g.cs
+C:\Users\James\Desktop\졸프\졸프\App2\App2\obj\Debug\Sample1.g.i.cs
+C:\Users\James\Desktop\졸프\졸프\App2\App2\obj\Debug\Sample1.g.cs
+C:\Users\James\Desktop\졸프\졸프\App2\App2\obj\Debug\Sample2.g.i.cs
+C:\Users\James\Desktop\졸프\졸프\App2\App2\obj\Debug\Sample2.g.cs
+C:\Users\James\Desktop\졸프\졸프\App2\App2\obj\Debug\Storage.g.i.cs
+C:\Users\James\Desktop\졸프\졸프\App2\App2\obj\Debug\Storage.g.cs
+C:\Users\James\Desktop\졸프\졸프\App2\App2\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\James\Desktop\졸프\졸프\App2\App2\obj\Debug\App.xaml
+C:\Users\James\Desktop\졸프\졸프\App2\App2\obj\Debug\DrawingPage.xaml
+C:\Users\James\Desktop\졸프\졸프\App2\App2\obj\Debug\MainPage.xaml
+C:\Users\James\Desktop\졸프\졸프\App2\App2\obj\Debug\Sample1.xaml
+C:\Users\James\Desktop\졸프\졸프\App2\App2\obj\Debug\Sample2.xaml
+C:\Users\James\Desktop\졸프\졸프\App2\App2\obj\Debug\Storage.xaml
+C:\Users\James\Desktop\졸프\졸프\App2\App2\obj\Debug\App.xbf
+C:\Users\James\Desktop\졸프\졸프\App2\App2\obj\Debug\DrawingPage.xbf
+C:\Users\James\Desktop\졸프\졸프\App2\App2\obj\Debug\MainPage.xbf
+C:\Users\James\Desktop\졸프\졸프\App2\App2\obj\Debug\Sample1.xbf
+C:\Users\James\Desktop\졸프\졸프\App2\App2\obj\Debug\Sample2.xbf
+C:\Users\James\Desktop\졸프\졸프\App2\App2\obj\Debug\Storage.xbf
+C:\Users\James\Desktop\졸프\졸프\App2\App2\obj\Debug\XamlSaveStateFile.xml
+C:\Users\James\Desktop\졸프\졸프\App2\App2\obj\Debug\App2.exe
+C:\Users\James\Desktop\졸프\졸프\App2\App2\obj\Debug\App2.pdb
+C:\Users\James\Desktop\졸프\졸프\App2\App2\obj\Debug\App2.csproj.GenerateResource.Cache
+C:\Users\James\Desktop\졸프\졸프\App2\App2\obj\Debug\priconfig.xml
+C:\Users\James\Desktop\졸프\졸프\App2\App2\obj\Debug\priconfig.xml.intermediate
+C:\Users\James\Desktop\졸프\졸프\App2\App2\obj\Debug\layout.resfiles
+C:\Users\James\Desktop\졸프\졸프\App2\App2\obj\Debug\layout.resfiles.intermediate
+C:\Users\James\Desktop\졸프\졸프\App2\App2\obj\Debug\resources.resfiles
+C:\Users\James\Desktop\졸프\졸프\App2\App2\obj\Debug\resources.resfiles.intermediate
+C:\Users\James\Desktop\졸프\졸프\App2\App2\obj\Debug\pri.resfiles
+C:\Users\James\Desktop\졸프\졸프\App2\App2\obj\Debug\pri.resfiles.intermediate
+C:\Users\James\Desktop\졸프\졸프\App2\App2\obj\Debug\qualifiers.txt
+C:\Users\James\Desktop\졸프\졸프\App2\App2\obj\Debug\qualifiers.txt.intermediate
+C:\Users\James\Desktop\졸프\졸프\App2\App2\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\James\Desktop\졸프\졸프\App2\App2\obj\Debug\PerpetuumSoft.Controls.pri.xml
+C:\Users\James\Desktop\졸프\졸프\App2\App2\obj\Debug\PerpetuumSoft.WinRT.Framework.pri.xml
+C:\Users\James\Desktop\졸프\졸프\App2\App2\obj\Debug\ProjectArchitectures.txt
+C:\Users\James\Desktop\졸프\졸프\App2\App2\obj\Debug\App2.csprojResolveAssemblyReference.cache

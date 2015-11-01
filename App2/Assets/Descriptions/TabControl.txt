@@ -1,0 +1,1 @@
+﻿Tab control offers the ability to define multiple pages for the same area of the application. Tabs usually group information or controls based on their type.

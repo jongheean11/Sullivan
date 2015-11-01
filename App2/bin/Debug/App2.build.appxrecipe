@@ -1,0 +1,395 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-RNFT7CA</Machine>
+    <WindowsUser>James</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows 8.1</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>59921d13-e50a-46d9-afc1-bd24590c3f7a</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\James\Desktop\졸프\졸프\App2\App2\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\bin\Debug\App2.exe">
+      <PackagePath>App2.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\FTD2XX_NET_1010\FTD2XX_NET.dll">
+      <PackagePath>FTD2XX_NET.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\Dll\PerpetuumSoft.Controls.dll">
+      <PackagePath>PerpetuumSoft.Controls.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\Dll\PerpetuumSoft.WinRT.Framework.dll">
+      <PackagePath>PerpetuumSoft.WinRT.Framework.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\Assets\fgPw.png">
+      <PackagePath>Assets\fgPw.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\Assets\login.png">
+      <PackagePath>Assets\login.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\Assets\pw.png">
+      <PackagePath>Assets\pw.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\Assets\Radial\bg.png">
+      <PackagePath>Assets\Radial\bg.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\Assets\Radial\bold.png">
+      <PackagePath>Assets\Radial\bold.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\Assets\Radial\bullet0.png">
+      <PackagePath>Assets\Radial\bullet0.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\Assets\Radial\bullet1.png">
+      <PackagePath>Assets\Radial\bullet1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\Assets\Radial\bullet2.png">
+      <PackagePath>Assets\Radial\bullet2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\Assets\Radial\bullet3.png">
+      <PackagePath>Assets\Radial\bullet3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\Assets\Radial\bullet5.png">
+      <PackagePath>Assets\Radial\bullet5.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\Assets\Radial\bullet6.png">
+      <PackagePath>Assets\Radial\bullet6.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\Assets\Radial\bullet7.png">
+      <PackagePath>Assets\Radial\bullet7.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\Assets\Radial\bullets.png">
+      <PackagePath>Assets\Radial\bullets.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\Assets\Radial\cancel.png">
+      <PackagePath>Assets\Radial\cancel.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\Assets\Radial\cancelM.png">
+      <PackagePath>Assets\Radial\cancelM.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\Assets\Radial\center.png">
+      <PackagePath>Assets\Radial\center.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\Assets\Radial\chart.png">
+      <PackagePath>Assets\Radial\chart.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\Assets\Radial\chartM.png">
+      <PackagePath>Assets\Radial\chartM.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\Assets\Radial\copy.png">
+      <PackagePath>Assets\Radial\copy.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\Assets\Radial\copyformat.png">
+      <PackagePath>Assets\Radial\copyformat.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\Assets\Radial\cut.png">
+      <PackagePath>Assets\Radial\cut.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\Assets\Radial\darkcolorscheme.png">
+      <PackagePath>Assets\Radial\darkcolorscheme.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\Assets\Radial\eraser.png">
+      <PackagePath>Assets\Radial\eraser.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\Assets\Radial\eraserM.png">
+      <PackagePath>Assets\Radial\eraserM.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\Assets\Radial\fill.png">
+      <PackagePath>Assets\Radial\fill.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\Assets\Radial\font.png">
+      <PackagePath>Assets\Radial\font.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\Assets\Radial\fontcolor.png">
+      <PackagePath>Assets\Radial\fontcolor.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\Assets\Radial\fontsize.png">
+      <PackagePath>Assets\Radial\fontsize.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\Assets\Radial\highlight.png">
+      <PackagePath>Assets\Radial\highlight.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\Assets\Radial\important.png">
+      <PackagePath>Assets\Radial\important.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\Assets\Radial\indentless.png">
+      <PackagePath>Assets\Radial\indentless.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\Assets\Radial\indentmore.png">
+      <PackagePath>Assets\Radial\indentmore.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\Assets\Radial\italic.png">
+      <PackagePath>Assets\Radial\italic.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\Assets\Radial\left.png">
+      <PackagePath>Assets\Radial\left.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\Assets\Radial\lightcolorscheme.png">
+      <PackagePath>Assets\Radial\lightcolorscheme.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\Assets\Radial\number1.png">
+      <PackagePath>Assets\Radial\number1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\Assets\Radial\number2.png">
+      <PackagePath>Assets\Radial\number2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\Assets\Radial\number3.png">
+      <PackagePath>Assets\Radial\number3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\Assets\Radial\number5.png">
+      <PackagePath>Assets\Radial\number5.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\Assets\Radial\number6.png">
+      <PackagePath>Assets\Radial\number6.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\Assets\Radial\number7.png">
+      <PackagePath>Assets\Radial\number7.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\Assets\Radial\numbering.png">
+      <PackagePath>Assets\Radial\numbering.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\Assets\Radial\paste.png">
+      <PackagePath>Assets\Radial\paste.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\Assets\Radial\pasteformat.png">
+      <PackagePath>Assets\Radial\pasteformat.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\Assets\Radial\pen.png">
+      <PackagePath>Assets\Radial\pen.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\Assets\Radial\penM.png">
+      <PackagePath>Assets\Radial\penM.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\Assets\Radial\picture.png">
+      <PackagePath>Assets\Radial\picture.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\Assets\Radial\pictureM.png">
+      <PackagePath>Assets\Radial\pictureM.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\Assets\Radial\pictureS.png">
+      <PackagePath>Assets\Radial\pictureS.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\Assets\Radial\question.png">
+      <PackagePath>Assets\Radial\question.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\Assets\Radial\redo-all.png">
+      <PackagePath>Assets\Radial\redo-all.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\Assets\Radial\redo.png">
+      <PackagePath>Assets\Radial\redo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\Assets\Radial\remove.png">
+      <PackagePath>Assets\Radial\remove.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\Assets\Radial\right.png">
+      <PackagePath>Assets\Radial\right.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\Assets\Radial\select.png">
+      <PackagePath>Assets\Radial\select.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\Assets\Radial\selectM.png">
+      <PackagePath>Assets\Radial\selectM.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\Assets\Radial\solid.png">
+      <PackagePath>Assets\Radial\solid.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\Assets\Radial\solidM.png">
+      <PackagePath>Assets\Radial\solidM.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\Assets\Radial\strikeout.png">
+      <PackagePath>Assets\Radial\strikeout.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\Assets\Radial\subscript.png">
+      <PackagePath>Assets\Radial\subscript.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\Assets\Radial\superscript.png">
+      <PackagePath>Assets\Radial\superscript.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\Assets\Radial\tags.png">
+      <PackagePath>Assets\Radial\tags.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\Assets\Radial\text.png">
+      <PackagePath>Assets\Radial\text.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\Assets\Radial\textM.png">
+      <PackagePath>Assets\Radial\textM.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\Assets\Radial\todo.png">
+      <PackagePath>Assets\Radial\todo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\Assets\Radial\underline.png">
+      <PackagePath>Assets\Radial\underline.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\Assets\Radial\undo-all.png">
+      <PackagePath>Assets\Radial\undo-all.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\Assets\Radial\undo.png">
+      <PackagePath>Assets\Radial\undo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\Assets\resi.png">
+      <PackagePath>Assets\resi.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\Assets\Sullivanlogo.png">
+      <PackagePath>Assets\Sullivanlogo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\Assets\un.png">
+      <PackagePath>Assets\un.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\Assets\Wide310x150Logo.scale-100.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\Picture\150x150.png">
+      <PackagePath>Picture\150x150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\Picture\30x30.png">
+      <PackagePath>Picture\30x30.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\Picture\310x150.png">
+      <PackagePath>Picture\310x150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\Picture\620x300.png">
+      <PackagePath>Picture\620x300.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\Picture\acmButton.png">
+      <PackagePath>Picture\acmButton.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\Picture\drawB.png">
+      <PackagePath>Picture\drawB.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\Picture\MsBg.png">
+      <PackagePath>Picture\MsBg.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\Audio\Africa_audio.wav">
+      <PackagePath>Audio\Africa_audio.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\Audio\A_audio.wav">
+      <PackagePath>Audio\A_audio.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\Audio\E_audio.wav">
+      <PackagePath>Audio\E_audio.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\Audio\Forestland.wav">
+      <PackagePath>Audio\Forestland.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\Audio\I_audio.wav">
+      <PackagePath>Audio\I_audio.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\Audio\MS_audio.wav">
+      <PackagePath>Audio\MS_audio.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\Audio\M_audio.wav">
+      <PackagePath>Audio\M_audio.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\Audio\P1_audio.wav">
+      <PackagePath>Audio\P1_audio.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\Audio\P2_audio.wav">
+      <PackagePath>Audio\P2_audio.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\Audio\P3_audio.wav">
+      <PackagePath>Audio\P3_audio.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\Audio\P4_audio.wav">
+      <PackagePath>Audio\P4_audio.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\Audio\P5_audio.wav">
+      <PackagePath>Audio\P5_audio.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\Audio\R_audio.wav">
+      <PackagePath>Audio\R_audio.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\Audio\Sample_1_audio.wav">
+      <PackagePath>Audio\Sample_1_audio.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\Audio\Sample_audio.wav">
+      <PackagePath>Audio\Sample_audio.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\Audio\W_audio.wav">
+      <PackagePath>Audio\W_audio.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\Audio\Do.mp3">
+      <PackagePath>Audio\Do.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\Audio\DoHigh.mp3">
+      <PackagePath>Audio\DoHigh.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\Audio\Mi.mp3">
+      <PackagePath>Audio\Mi.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\Audio\Pa.mp3">
+      <PackagePath>Audio\Pa.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\Audio\Ra.mp3">
+      <PackagePath>Audio\Ra.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\Audio\Re.mp3">
+      <PackagePath>Audio\Re.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\Audio\Si.mp3">
+      <PackagePath>Audio\Si.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\Audio\Sol.mp3">
+      <PackagePath>Audio\Sol.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\clipper_library\clipper_library.csproj">
+      <PackagePath>clipper_library\clipper_library.csproj</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\Picture\AfricaClimate.jpg">
+      <PackagePath>Picture\AfricaClimate.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\bin\Debug\App2.xr.xml">
+      <PackagePath>App2.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\bin\Debug\DrawingPage.xbf">
+      <PackagePath>DrawingPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\bin\Debug\Sample1.xbf">
+      <PackagePath>Sample1.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\bin\Debug\Sample2.xbf">
+      <PackagePath>Sample2.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\bin\Debug\Storage.xbf">
+      <PackagePath>Storage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\Dll\PerpetuumSoft.Controls\Themes\Generic.xaml">
+      <PackagePath>PerpetuumSoft.Controls\Themes\Generic.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

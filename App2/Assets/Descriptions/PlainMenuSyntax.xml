@@ -1,0 +1,23 @@
+﻿<PlainMenu>
+  <PlainItem
+    Label="Item"
+    Image="Item.png"
+    Content="{Binding Content}"
+    FontSize="16"
+    Background="Red">
+    <PlainMenu Caption="Submenu Caption">
+      <PlainItem Label="Checked Item" Mode="CheckBox" IsChecked="{Binding IsChcked, Mode=TwoWay}" />
+      <PlainItem Label="RadioGroup1 Option1" Mode="RadioButton"  />
+      <PlainItem Label="RadioGroup1 Option2" Mode="RadioButton"  />
+      <PlainItem Label="RadioGroup2 Option1" Mode="RadioButton" GroupName="SecondGroup" />
+      <PlainItem Label="RadioGroup2 Option2" Mode="RadioButton" GroupName="SecondGroup" />
+      <PlainItemSeparator />
+      <PlainItem
+        Label="Action Item"
+        ToolTipService.ToolTip="Item with Click and Command properties"
+        Command="{Binding Command}"
+        CommandParameter="Parameter"
+        Click="ClickHandler" />
+    </PlainMenu>
+  </PlainItem>
+</PlainMenu>

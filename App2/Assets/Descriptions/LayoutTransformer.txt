@@ -1,0 +1,1 @@
+Layout Transformer helps developers easily manage application content and controls: buttons, text boxes, numeric boxes, etc. It automatically layouts elements when some modifications are done, for example, an element is rotated.
