@@ -21,9 +21,6 @@
     <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\bin\Release\App2.exe">
       <PackagePath>App2.exe</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\FTD2XX_NET_1010\FTD2XX_NET.dll">
-      <PackagePath>FTD2XX_NET.dll</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\Dll\PerpetuumSoft.Controls.dll">
       <PackagePath>PerpetuumSoft.Controls.dll</PackagePath>
     </AppxPackagedFile>
@@ -249,8 +246,8 @@
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\Assets\StoreLogo.scale-100.png">
-      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\Assets\StoreLogo100.png">
+      <PackagePath>Assets\StoreLogo100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\Assets\Sullivanlogo.png">

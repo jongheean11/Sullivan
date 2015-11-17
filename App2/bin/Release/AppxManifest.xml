@@ -7,11 +7,11 @@
 
     패키지 매니페스트 파일에 대한 자세한 내용은 http://go.microsoft.com/fwlink/?LinkID=241727을 참조하십시오.
   -->
-  <Identity Name="59921d13-e50a-46d9-afc1-bd24590c3f7a" Publisher="CN=James" Version="1.0.0.4" ProcessorArchitecture="neutral" />
+  <Identity Name="59921d13-e50a-46d9-afc1-bd24590c3f7a" Publisher="CN=James" Version="1.0.0.9" ProcessorArchitecture="neutral" />
   <Properties>
     <DisplayName>App2</DisplayName>
     <PublisherDisplayName>James</PublisherDisplayName>
-    <Logo>Assets\StoreLogo.png</Logo>
+    <Logo>Assets\StoreLogo100.png</Logo>
   </Properties>
   <Prerequisites>
     <OSMinVersion>6.3.0</OSMinVersion>

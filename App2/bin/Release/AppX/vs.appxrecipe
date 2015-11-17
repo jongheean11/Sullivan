@@ -10,25 +10,25 @@
     <PackageArchitecture>neutral</PackageArchitecture>
     <PackageIdentityName>59921d13-e50a-46d9-afc1-bd24590c3f7a</PackageIdentityName>
     <IntermediateOutputPath>C:\Users\James\Desktop\졸프\졸프\App2\App2\obj\Release\</IntermediateOutputPath>
-    <RegisteredManifestChecksum>C1A9FE7B8B8547A8DAD9C0DCF87A4CF12ADC288FEAF4CE44FBC9D531E70D78A1</RegisteredManifestChecksum>
-    <RegisteredPackageMoniker>59921d13-e50a-46d9-afc1-bd24590c3f7a_1.0.0.4_neutral__gd9wj2p7c52jg</RegisteredPackageMoniker>
+    <RegisteredManifestChecksum>B538D8C24CCBC26BFF5E4FE0D5DD47CD51C94DF6C41545226619CF0546B2A718</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>59921d13-e50a-46d9-afc1-bd24590c3f7a_1.0.0.5_neutral__gd9wj2p7c52jg</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>59921d13-e50a-46d9-afc1-bd24590c3f7a_gd9wj2p7c52jg!App</RegisteredUserModeAppID>
     <RegisteredPackageID>59921d13-e50a-46d9-afc1-bd24590c3f7a</RegisteredPackageID>
     <RegisteredPackagePublisher>CN=James</RegisteredPackagePublisher>
-    <RegisteredVersion>1.0.0.4</RegisteredVersion>
+    <RegisteredVersion>1.0.0.5</RegisteredVersion>
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
     <AppXManifest Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\bin\Release\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-10-27T15:54:53.394</Modified>
+      <Modified>2015-11-17T03:16:36.223</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\bin\Release\App2.exe">
       <PackagePath>App2.exe</PackagePath>
-      <Modified>2015-10-27T18:40:52.916</Modified>
+      <Modified>2015-11-17T03:13:27.933</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\FTD2XX_NET_1010\FTD2XX_NET.dll">
       <PackagePath>FTD2XX_NET.dll</PackagePath>
@@ -517,7 +517,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\James\Desktop\졸프\졸프\App2\App2\bin\Release\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2015-10-27T15:54:53.246</Modified>
+      <Modified>2015-11-17T03:16:36.137</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

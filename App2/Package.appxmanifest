@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/2010/manifest" xmlns:m2="http://schemas.microsoft.com/appx/2013/manifest">
-  <Identity Name="59921d13-e50a-46d9-afc1-bd24590c3f7a" Publisher="CN=James" Version="1.0.0.4" />
+  <Identity Name="59921d13-e50a-46d9-afc1-bd24590c3f7a" Publisher="CN=James" Version="1.0.0.9" />
   <Properties>
     <DisplayName>App2</DisplayName>
     <PublisherDisplayName>James</PublisherDisplayName>
-    <Logo>Assets\StoreLogo.png</Logo>
+    <Logo>Assets\StoreLogo100.png</Logo>
   </Properties>
   <Prerequisites>
     <OSMinVersion>6.3.0</OSMinVersion>

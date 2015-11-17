@@ -83,10 +83,8 @@ C:\Users\James\Desktop\졸프\졸프\App2\App2\bin\Release\App2.pdb
 C:\Users\James\Desktop\졸프\졸프\App2\App2\bin\Release\resources.pri
 C:\Users\James\Desktop\졸프\졸프\App2\App2\bin\Release\AppxManifest.xml
 C:\Users\James\Desktop\졸프\졸프\App2\App2\bin\Release\App2.build.appxrecipe
-C:\Users\James\Desktop\졸프\졸프\App2\App2\bin\Release\FTD2XX_NET.dll
 C:\Users\James\Desktop\졸프\졸프\App2\App2\bin\Release\PerpetuumSoft.Controls.dll
 C:\Users\James\Desktop\졸프\졸프\App2\App2\bin\Release\PerpetuumSoft.WinRT.Framework.dll
-C:\Users\James\Desktop\졸프\졸프\App2\App2\bin\Release\FTD2XX_NET.xml
 C:\Users\James\Desktop\졸프\졸프\App2\App2\bin\Release\PerpetuumSoft.Controls.pri
 C:\Users\James\Desktop\졸프\졸프\App2\App2\bin\Release\PerpetuumSoft.WinRT.Framework.pri
 C:\Users\James\Desktop\졸프\졸프\App2\App2\obj\Release\App2.csprojResolveAssemblyReference.cache

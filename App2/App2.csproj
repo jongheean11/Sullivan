@@ -18,6 +18,7 @@
     <ExpressionBlendVersion>12.0.41002.1</ExpressionBlendVersion>
     <AppxAutoIncrementPackageRevision>True</AppxAutoIncrementPackageRevision>
     <AppxBundlePlatforms>neutral</AppxBundlePlatforms>
+    <PackageCertificateThumbprint>1DC6AE483F5FC99C1E3DD478FB8382F0E3E05005</PackageCertificateThumbprint>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -216,7 +217,7 @@
     </Content>
     <Content Include="Assets\SmallLogo.scale-100.png" />
     <Content Include="Assets\SplashScreen.scale-100.png" />
-    <Content Include="Assets\StoreLogo.scale-100.png" />
+    <Content Include="Assets\StoreLogo100.png" />
     <Content Include="Assets\Sullivanlogo.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
@@ -288,9 +289,6 @@
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="FTD2XX_NET">
-      <HintPath>FTD2XX_NET_1010\FTD2XX_NET.dll</HintPath>
-    </Reference>
     <Reference Include="PerpetuumSoft.Controls, Version=2.0.1.0, Culture=neutral, PublicKeyToken=869747bf8b7eefb4, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>Dll\PerpetuumSoft.Controls.dll</HintPath>

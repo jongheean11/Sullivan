@@ -1,1 +1,1 @@
-C:\Users\James\documents\visual studio 2013\Projects\App2\App2\AppPackages\App2_1.0.0.4_AnyCPU_Test\App2_1.0.0.4_AnyCPU.appx
+C:\Users\James\Desktop\졸프\졸프\App2\App2\AppPackages\App2_1.0.0.9_AnyCPU_Test\App2_1.0.0.9_AnyCPU.appx
